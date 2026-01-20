@@ -24,6 +24,7 @@
     font-family: face5;
     src: url(./Beauty.ttf);
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -127,7 +128,7 @@ body {
 
 button {
     background: linear-gradient(to right top, red, blue);
-    border-radius: 2px;
+    border-radius: 5px;
     border: none;
     color: rgb(255, 255, 255);
     padding: 5px;
@@ -142,15 +143,16 @@ button {
     position: absolute;
     bottom: 0;
     left: 0;
-     padding: 3% 0%;
+    padding: 3% 0%;
 }
 
 #bottom_text {
     font-size: 10px;
     color: aliceblue;
     text-align: center;
-  }
-h5{
+}
+
+h5 {
     margin-top: 10px;
     font-family: face5;
     color: aliceblue;
