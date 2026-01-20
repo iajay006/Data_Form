@@ -14,6 +14,16 @@
     font-family: face3;
     src: url(./Sophie.ttf);
 }
+
+@font-face {
+    font-family: face4;
+    src: url(./annabel.ttf);
+}
+
+@font-face {
+    font-family: face5;
+    src: url(./Beauty.ttf);
+}
 * {
     margin: 0;
     padding: 0;
@@ -35,7 +45,7 @@ body {
 #header {
     width: 100%;
     height: 160px;
-    background: linear-gradient(to right bottom, rgb(113, 113, 255), rgb(255, 96, 96));
+    background: linear-gradient(to right bottom, rgb(255, 113, 224), rgb(206, 255, 92));
     padding: 10px;
 
 }
@@ -46,13 +56,104 @@ body {
     font-family: font2;
     text-align: center;
     text-transform: uppercase;
+
 }
 
-#p1{
+#p1 {
     margin-top: 5px;
     font-size: 15px;
-    font-family:face3;
+    font-family: face3;
     font-weight: 200;
     text-decoration: wavy;
     text-align: justify;
+}
+
+#body {
+    width: 100%;
+    height: 530px;
+    background: linear-gradient(to right bottom, blue, red);
+    padding: 10px;
+}
+
+#form_body {
+    width: 100%;
+    height: 230px;
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+
+#num {
+    width: 25px;
+    height: 450px;
+    /* background-color: #ca1717; */
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    text-align: center;
+}
+
+#left {
+    width: 40%;
+    height: 450px;
+    /* background-color: #fff; */
+    position: absolute;
+    left: 40px;
+    top: 10px;
+}
+
+#right {
+    width: 45%;
+    height: 450px;
+    /* background-color: #312727; */
+    position: absolute;
+    right: 10px;
+    top: 10px;
+
+}
+
+.h2 {
+    font-size: 20px;
+    font-family: face3;
+    margin-bottom: 5px;
+
+}
+
+.f1 {
+    margin-bottom: 8px;
+    width: 90%;
+}
+
+button {
+    background: linear-gradient(to right top, red, blue);
+    border-radius: 2px;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+#bottom {
+    height: 30px;
+    width: 100%;
+    background-color: rgb(19, 24, 46);
+    /* text-transform: uppercase; */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+     padding: 3% 0%;
+}
+
+#bottom_text {
+    font-size: 10px;
+    color: aliceblue;
+    text-align: center;
+  }
+h5{
+    margin-top: 10px;
+    font-family: face5;
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
 }
