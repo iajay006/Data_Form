@@ -51,8 +51,10 @@
                         <input class="f1" type="text" name="entry.1321000754" placeholder="New/Renewal" required>
                         <br>
                         <input class="f1" type="number" name="entry.1930833819" required>
-                        <br>
-                        <input class="f1" type="number" name="entry.1716433930" placeholder="Enter mobile number" required>
+                        <br><input class="f1" type="tel" name="entry.1716433930"
+                            placeholder="Enter 10-digit mobile number" pattern="[0-9]{10}" minlength="10" maxlength="10"
+                            inputmode="numeric" required>
+
                         <br>
                         <button>Subbmit</button>
                     </form>
